@@ -1,0 +1,5 @@
+PASS_MAX_DAYS   99999
+PASS_MIN_DAYS   3 (Valor predeterminado 0)
+PASS_WARN_AGE   7
+
+LOGIN_RETRIES   3 (Valor predeterminado 5)
