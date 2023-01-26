@@ -1,0 +1,34 @@
+!/bin/bash
+
+#Creación de grupos
+groupadd sinformacion
+#groupadd desarrollo
+#groupadd explotacion
+
+#Creacion de la carpeta principal
+mkdir proyectos
+
+#Creacion de permisos
+setfacl -m d:g:sinformacion:rwx proyectos/
+#setfacl -m d:g:desarrollo:rw- 
+#setfacl -m d:g:explotacion:r-
+
+#Creacion subcarpetas
+mkdir -p /proyectos/{pruebas, src}
+
+#Modificamos los permisos conforme se nos pide
+#setfacl -m d:g:desarrollo:rw- src/
+
+#setfacl -m d:g:explotacion:r pruebas/
+
+#setfacl -m d:g:explotacion:rx src/
+
+
+#Comando para listar los grupos
+groups
+
+#Comando para listar los grupos con su ID
+id
+
+#Comando para ver todos los grupos del sistema
+#getent group
