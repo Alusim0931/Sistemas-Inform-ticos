@@ -112,16 +112,16 @@ lalbaa		Cleartext-Password := "lalbaa"
 		Reply-Message := "Hola, %{User-Name}, del departamento de Prensa"
 
 salbam		Cleartext-Password := "salbam"
-		Reply-Message := "Hola, %{User-Name}, del departamento de Rectorado"
+		Reply-Message := "Hola, %{User-Name}, del departamento de Administracion"
 
 icarvalhoa	Cleartext-Password := "icarvalhoa"
-		Reply-Message := "Hola, %{User-Name}, del departamento de Rectorado"
+		Reply-Message := "Hola, %{User-Name}, del departamento de Administracion"
 
 fcamposg	Cleartext-Password := "fcamposg"
-		Reply-Message := "Hola, %{User-Name}, del departamento de Rectorado"
+		Reply-Message := "Hola, %{User-Name}, del departamento de Administracion"
 
 bmonchoc	Cleartext-Password := "bmonchoc"
-		Reply-Message := "Hola, %{User-Name}, del departamento de Rectorado"
+		Reply-Message := "Hola, %{User-Name}, del departamento de Administracion"
 
 mjuanp		Cleartext-Password := "mjuanp"
 		Reply-Message := "Hola, %{User-Name}, del departamento de Informática"
